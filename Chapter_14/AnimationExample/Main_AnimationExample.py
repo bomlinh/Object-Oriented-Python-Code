@@ -97,7 +97,7 @@ oWalkAnimation = pygwidgets.SpriteSheetAnimation(window, (460, 335), 'images/mal
 
 
 
-if '1.0.3' in pygwidgets.getVersion():
+if '1.0.3' in pygwidgets.getPygwidgetsVersion():
     oPlayer = pygwidgets.DisplayText(window, (740, SCREEN_HEIGHT * .333), 'Available in pygwidgets 1.1', fontSize=24)
     oRunAnimation = pygwidgets.DisplayText(window, 740, SCREEN_HEIGHT * .666, 'Available in pygwidgets 1.1', fontSize=24)
     oCollectionsInstructionsText1 = pygwidgets.DisplayText(window, (750, 300), '')
